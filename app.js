@@ -16,7 +16,7 @@ app.use(bodyParser.text({type: 'application/json'}));
 // helmet handles various http headers to improve servers security
 app.use(helmet());
 
-app.use(authMiddleware);
+// app.use(authMiddleware);
 
 if (env !== 'test') {
     app.use(loggerMiddleware);
