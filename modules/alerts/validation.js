@@ -8,4 +8,11 @@ module.exports = {
             message: Joi.string().required(),
         },
     },
+    alertGet: {
+        params: {
+        },
+        query: {
+            message: Joi.string().required(),
+        },
+    },
 };
